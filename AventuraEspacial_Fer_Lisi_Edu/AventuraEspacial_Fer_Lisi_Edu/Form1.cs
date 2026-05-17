@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AventuraEspacial_Fer_Lisi_Edu
 {
-    public partial class Form1 : Form
+    public partial class AventuraEspacial : Form
     {
-        public Form1()
+        public AventuraEspacial()
         {
             InitializeComponent();
+        }
+
+        private void lbOxigeno_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

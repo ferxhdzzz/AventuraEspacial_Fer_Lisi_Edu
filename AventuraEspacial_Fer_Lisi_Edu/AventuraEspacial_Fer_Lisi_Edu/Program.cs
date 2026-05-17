@@ -16,7 +16,7 @@ namespace AventuraEspacial_Fer_Lisi_Edu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new AventuraEspacial());
         }
     }
 }
