@@ -63,6 +63,26 @@ namespace AventuraEspacial_Fer_Lisi_Edu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_17_may_2026__06_09_51_p_m_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 17 may 2026, 06_09_51 p.m.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GA {
+            get {
+                object obj = ResourceManager.GetObject("GA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap galacxia {
             get {
                 object obj = ResourceManager.GetObject("galacxia", resourceCulture);
@@ -93,9 +113,59 @@ namespace AventuraEspacial_Fer_Lisi_Edu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap n_a {
+            get {
+                object obj = ResourceManager.GetObject("n.a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nave {
             get {
                 object obj = ResourceManager.GetObject("nave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p_r {
+            get {
+                object obj = ResourceManager.GetObject("p.r", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p_r_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("p.r-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1 {
+            get {
+                object obj = ResourceManager.GetObject("p1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PLAMETA {
+            get {
+                object obj = ResourceManager.GetObject("PLAMETA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

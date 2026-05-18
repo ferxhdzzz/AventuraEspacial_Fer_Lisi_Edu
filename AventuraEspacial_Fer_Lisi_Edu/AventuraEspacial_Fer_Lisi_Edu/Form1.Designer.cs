@@ -39,8 +39,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picPlaneta = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlaneta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbPlaneta
@@ -143,6 +145,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(795, 235);
@@ -164,13 +167,26 @@
             // 
             // picPlaneta
             // 
-            this.picPlaneta.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.Planeta;
+            this.picPlaneta.BackColor = System.Drawing.Color.Transparent;
+            this.picPlaneta.BackgroundImage = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.PLAMETA;
+            this.picPlaneta.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.p_r_removebg_preview;
             this.picPlaneta.Location = new System.Drawing.Point(12, 12);
             this.picPlaneta.Name = "picPlaneta";
             this.picPlaneta.Size = new System.Drawing.Size(400, 391);
-            this.picPlaneta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlaneta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPlaneta.TabIndex = 0;
             this.picPlaneta.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.ChatGPT_Image_17_may_2026__06_09_51_p_m_;
+            this.pictureBox2.Location = new System.Drawing.Point(-6, -25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1132, 654);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
             // 
             // AventuraEspacial
             // 
@@ -189,11 +205,13 @@
             this.Controls.Add(this.lbTemperatura);
             this.Controls.Add(this.lbPlaneta);
             this.Controls.Add(this.picPlaneta);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "AventuraEspacial";
             this.Text = "AventuraEspacial";
             this.Load += new System.EventHandler(this.AventuraEspacial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlaneta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,6 +230,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

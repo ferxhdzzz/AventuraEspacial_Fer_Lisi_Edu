@@ -95,5 +95,26 @@
   <ItemGroup>
     <None Include="Resources\galaxia 2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.r1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n.a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.r-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLAMETA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 17 may 2026, 06_09_51 p.m..png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
