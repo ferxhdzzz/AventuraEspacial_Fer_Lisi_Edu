@@ -50,31 +50,36 @@
             this.lbPlaneta.AutoSize = true;
             this.lbPlaneta.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPlaneta.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbPlaneta.Location = new System.Drawing.Point(7, 415);
+            this.lbPlaneta.Location = new System.Drawing.Point(9, 511);
+            this.lbPlaneta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPlaneta.Name = "lbPlaneta";
-            this.lbPlaneta.Size = new System.Drawing.Size(84, 25);
+            this.lbPlaneta.Size = new System.Drawing.Size(104, 32);
             this.lbPlaneta.TabIndex = 1;
             this.lbPlaneta.Text = " Planeta:";
+            this.lbPlaneta.Click += new System.EventHandler(this.lbPlaneta_Click);
             // 
             // lbTemperatura
             // 
             this.lbTemperatura.AutoSize = true;
             this.lbTemperatura.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTemperatura.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbTemperatura.Location = new System.Drawing.Point(12, 464);
+            this.lbTemperatura.Location = new System.Drawing.Point(16, 571);
+            this.lbTemperatura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTemperatura.Name = "lbTemperatura";
-            this.lbTemperatura.Size = new System.Drawing.Size(122, 25);
+            this.lbTemperatura.Size = new System.Drawing.Size(153, 32);
             this.lbTemperatura.TabIndex = 2;
             this.lbTemperatura.Text = "Temperatura:";
+            this.lbTemperatura.Click += new System.EventHandler(this.lbTemperatura_Click);
             // 
             // lbOxigeno
             // 
             this.lbOxigeno.AutoSize = true;
             this.lbOxigeno.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOxigeno.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbOxigeno.Location = new System.Drawing.Point(12, 513);
+            this.lbOxigeno.Location = new System.Drawing.Point(16, 631);
+            this.lbOxigeno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbOxigeno.Name = "lbOxigeno";
-            this.lbOxigeno.Size = new System.Drawing.Size(87, 25);
+            this.lbOxigeno.Size = new System.Drawing.Size(109, 32);
             this.lbOxigeno.TabIndex = 3;
             this.lbOxigeno.Text = "Oxígeno:";
             this.lbOxigeno.Click += new System.EventHandler(this.lbOxigeno_Click);
@@ -84,18 +89,21 @@
             this.lbDaño.AutoSize = true;
             this.lbDaño.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDaño.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lbDaño.Location = new System.Drawing.Point(12, 557);
+            this.lbDaño.Location = new System.Drawing.Point(16, 686);
+            this.lbDaño.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDaño.Name = "lbDaño";
-            this.lbDaño.Size = new System.Drawing.Size(61, 25);
+            this.lbDaño.Size = new System.Drawing.Size(76, 32);
             this.lbDaño.TabIndex = 4;
             this.lbDaño.Text = "Daño:";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(799, 259);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(1065, 319);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(220, 95);
+            this.listBox1.Size = new System.Drawing.Size(292, 116);
             this.listBox1.TabIndex = 5;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -107,12 +115,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(844, 380);
+            this.button1.Location = new System.Drawing.Point(1125, 468);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 45);
+            this.button1.Size = new System.Drawing.Size(200, 55);
             this.button1.TabIndex = 6;
             this.button1.Text = "Explorar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -121,9 +131,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(844, 455);
+            this.button2.Location = new System.Drawing.Point(1125, 560);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 45);
+            this.button2.Size = new System.Drawing.Size(200, 55);
             this.button2.TabIndex = 7;
             this.button2.Text = "Reparar nave";
             this.button2.UseVisualStyleBackColor = false;
@@ -135,9 +146,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(844, 526);
+            this.button3.Location = new System.Drawing.Point(1125, 647);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 45);
+            this.button3.Size = new System.Drawing.Size(200, 55);
             this.button3.TabIndex = 8;
             this.button3.Text = "Ver historial";
             this.button3.UseVisualStyleBackColor = false;
@@ -148,9 +160,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(795, 235);
+            this.label1.Location = new System.Drawing.Point(1060, 289);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 21);
+            this.label1.Size = new System.Drawing.Size(85, 28);
             this.label1.TabIndex = 10;
             this.label1.Text = "Historial";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -158,9 +171,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.nave;
-            this.pictureBox1.Location = new System.Drawing.Point(789, 53);
+            this.pictureBox1.Location = new System.Drawing.Point(1052, 65);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(227, 169);
+            this.pictureBox1.Size = new System.Drawing.Size(303, 208);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -170,9 +184,10 @@
             this.picPlaneta.BackColor = System.Drawing.Color.Transparent;
             this.picPlaneta.BackgroundImage = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.PLAMETA;
             this.picPlaneta.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.p_r_removebg_preview;
-            this.picPlaneta.Location = new System.Drawing.Point(12, 12);
+            this.picPlaneta.Location = new System.Drawing.Point(16, 15);
+            this.picPlaneta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picPlaneta.Name = "picPlaneta";
-            this.picPlaneta.Size = new System.Drawing.Size(400, 391);
+            this.picPlaneta.Size = new System.Drawing.Size(533, 481);
             this.picPlaneta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPlaneta.TabIndex = 0;
             this.picPlaneta.TabStop = false;
@@ -181,19 +196,21 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::AventuraEspacial_Fer_Lisi_Edu.Properties.Resources.ChatGPT_Image_17_may_2026__06_09_51_p_m_;
-            this.pictureBox2.Location = new System.Drawing.Point(-6, -25);
+            this.pictureBox2.Location = new System.Drawing.Point(-8, -31);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1132, 654);
+            this.pictureBox2.Size = new System.Drawing.Size(1509, 805);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // AventuraEspacial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1084, 611);
+            this.ClientSize = new System.Drawing.Size(1445, 752);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button3);
@@ -206,6 +223,7 @@
             this.Controls.Add(this.lbPlaneta);
             this.Controls.Add(this.picPlaneta);
             this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AventuraEspacial";
             this.Text = "AventuraEspacial";
             this.Load += new System.EventHandler(this.AventuraEspacial_Load);
