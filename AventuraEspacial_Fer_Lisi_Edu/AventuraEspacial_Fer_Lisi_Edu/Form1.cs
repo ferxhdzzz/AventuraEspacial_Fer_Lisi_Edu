@@ -9,6 +9,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace AventuraEspacial_Fer_Lisi_Edu
 {
@@ -54,8 +55,7 @@ namespace AventuraEspacial_Fer_Lisi_Edu
 
         private void button4_Click(object sender, EventArgs e)
         {
-
-
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -103,6 +103,11 @@ namespace AventuraEspacial_Fer_Lisi_Edu
 
             danoAcumulado += dano;
 
+            string texto = "[" + DateTime.Now + "] " + 
+                "Explorado: " + sistema.planetas[indice].Nombre + 
+                " - Daño térmico: " + dano;
+            File.AppendAllText("historial.txt", texto + Environment.NewLine);
+
             lbPlaneta.Text = "Planeta: " +
                  sistema.planetas[indice].Nombre;
 
@@ -130,6 +135,36 @@ namespace AventuraEspacial_Fer_Lisi_Edu
                 );
             }
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            danoAcumulado = 0;
+            naveExploto = false;
+            lbDaño.Text = "Daño: 0";
+            MessageBox.Show("🔧 La nave fue reparada exitosamente.");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+
+            if (File.Exists("historial.txt"))
+            {
+                string[] lineas =
+                    File.ReadAllLines("historial.txt");
+
+                foreach (string linea in lineas)
+                {
+                    listBox1.Items.Add(linea);
+                }
+            }
+            else
+            {
+                MessageBox.Show(
+                    "No existe historial todavía."
+                );
+            }
         }
     }
 }
