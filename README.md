@@ -48,7 +48,7 @@ Simular una misión espacial donde el usuario puede:
 
 ---
 
-# 🛠️ Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 - Lenguaje: C#
 - Framework: .NET Framework
@@ -131,4 +131,4 @@ Si el daño acumulado supera 500:
 - Proyecto funcional  
 - Interfaz gráfica implementada  
 - Uso de estructuras y punteros completado  
-- Validaciones implementadas 🚀
+- Validaciones implementadas 
