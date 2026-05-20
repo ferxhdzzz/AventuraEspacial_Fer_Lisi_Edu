@@ -90,7 +90,6 @@ AventuraEspacial/
 ├── Program.cs
 │
 ├── PlanetaSistema.cs
-├── Historial.cs
 │
 ├── Properties/
 │
