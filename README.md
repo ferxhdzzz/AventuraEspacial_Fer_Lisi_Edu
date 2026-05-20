@@ -4,9 +4,9 @@
 
 # Integrantes
 
-Fernanda Mizel Hernandez Cruz        Carnet: HC260172
-Adriana Liseyda Cortez de la Cruz    Carnet: CD260338
-Eduardo Alejandro Alvarenga Amaya    Carnet: AA260339
+- Fernanda Mizel Hernandez Cruz        Carnet: HC260172
+- Adriana Liseyda Cortez de la Cruz    Carnet: CD260338
+- Eduardo Alejandro Alvarenga Amaya    Carnet: AA260339
 
 ---
 
